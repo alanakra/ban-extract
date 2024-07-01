@@ -10,7 +10,7 @@ if not os.path.exists('sorted-communes'):
 
 def toSort(dpt):
 
-    if (dpt < 10):
+    if dpt < 10:
         dpt = f'{int(dpt):02d}'
 
     str(dpt)
