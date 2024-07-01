@@ -4,3 +4,4 @@ tests
 tosort/*
 sorted-communes/*
 sorted-voies/*
+.DS_Store
