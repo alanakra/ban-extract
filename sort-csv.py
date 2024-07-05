@@ -15,7 +15,7 @@ def toSort(dpt):
 
     str(dpt)
 
-    with open(f'tosort/adresses-{dpt}.csv', newline='') as csvfile:
+    with open(f'tosort/adresses-{dpt}.csv', newline='', encoding='utf-8') as csvfile:
         csvreader = csv.reader(csvfile)
 
         next(csvreader)

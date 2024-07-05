@@ -15,7 +15,7 @@ def toSort(dpt):
     voies = set()
     communes = set()
     
-    df = pd.read_csv(file_path, sep=';', usecols=[4, 5, 7], names=['voie', 'post', 'commune'], skiprows=1)
+    df = pd.read_csv(file_path, sep=';', usecols=[4, 5, 7], names=['voie', 'post', 'commune'], skiprows=1, encoding='utf-8')
 
     for _, row in df.iterrows():
         voie = row['voie']
