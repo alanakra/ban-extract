@@ -9,4 +9,4 @@ The `dlfiles.py` script makes it easier to download ZIP files. By default, the l
 [!WARNING]
 Check that files do not contain commas `,`. If not, remove them with CTRL+F and replace with a blank character. Data is separated by semicolons `;`.
 
-When all the files have been executed, you can now run either the `sort-csv-optimized.py` script or the `sort-csv-optimized.py` script, which is much faster to run. The outputs will appears in `sorted-communs` and `sorted-voies` directories.
+When all the files have been executed, you can now run `sort-csv.py`. The outputs will appears in `sorted-communes` and `sorted-voies` directories.
